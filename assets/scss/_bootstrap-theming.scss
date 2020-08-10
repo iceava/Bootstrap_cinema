@@ -1,0 +1,36 @@
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #053159;
+    transition: background-color 0.5s;
+    &:hover{
+        background-color: #366591;
+        }
+}
+.navbar-inverse .navbar-nav> li > a{
+    transition: background-color 0.5s;
+    &:focus{
+    background-color: #053159;
+    }
+    &:hover{
+    background-color:$color-primary;
+    }
+    @include sm-min {
+        border-radius: 4px;
+     
+    }
+}
+.navbar-right > li{
+    @include sm-min{
+        margin:5px 0px 5px 5px;  
+    }
+    
+}
+.navbar-left > li{
+    @include sm-min{
+        margin:5px 0px 5px 5px;  
+    }
+    
+}
+.navbar-inverse{
+    background-color: darken($color-dark , 4%);
+    margin: 0;
+}

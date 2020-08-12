@@ -78,3 +78,16 @@
     }
     
 }
+
+.input {
+    &-lg{
+    font-size: 0.875rem;
+    }
+    &-group-lg > .form-control {
+    font-size: 0.875rem;
+    }
+}
+
+.nav-tabs{
+    margin-bottom: 15px;
+}

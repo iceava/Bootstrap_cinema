@@ -1,5 +1,5 @@
 .left-sidebar{
-    margin-bottom: 80px;
+    @extend %margin-bottom-lg;
     .panel:last-of-type{
         margin-bottom: 0;
     }
@@ -14,9 +14,7 @@
 }
 
 
-img{
-    width: 100%;
-}
+
 
 .site-news{
     &-item{
@@ -56,8 +54,7 @@ img{
             .site-news-item__img{
                 border-color: $color-accent;
                 background-color: $color-accent;
-                //transition: 0.5s;
-            
+             
             }
         }
     }
@@ -88,7 +85,7 @@ padding-right: 0px;
     transition:none;
     background-color: transparent;
     color: $color-primary !important;
-   padding-right: 50px;
+   padding-right: 55px;
 
     &:first-child{
         border-radius: 0;

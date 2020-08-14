@@ -2,6 +2,10 @@
   text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
 }
 
+.header, .main, .left-sidebar {
+  margin-bottom: 80.0px;
+}
+
 .navbar-inverse .navbar-nav > .active > a {
   background-color: #053159;
   -webkit-transition: background-color 0.5s;
@@ -100,10 +104,6 @@ a:focus, a:hover {
   color: #df8a13;
 }
 
-.header {
-  margin-bottom: 80px;
-}
-
 .header-logo {
   padding: 100px 0px;
   text-align: center;
@@ -128,12 +128,50 @@ a:focus, a:hover {
   letter-spacing: 0.2em;
 }
 
-.main {
-  margin-bottom: 80px;
+.main .user-login {
+  margin-bottom: 60px;
 }
 
-.left-sidebar {
-  margin-bottom: 80px;
+.main .site-search {
+  margin-bottom: 45px;
+}
+
+.new-films-title {
+  margin: -7.5px 0 45px;
+  font-size: 3rem;
+  font-family: "PT Serif", serif;
+}
+
+.new-films-item {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.new-films-item_thumbnail {
+  margin-bottom: 0px;
+}
+
+.new-films-item_thumbnail:hover {
+  background-color: #df8a13;
+}
+
+.new-films-item_thumbnail:hover h3 {
+  color: #ffffff;
+}
+
+.new-films-item__caption h3 {
+  font-size: 1rem;
+  margin: 0px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+}
+
+.new-films-row {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 
 .left-sidebar .panel:last-of-type {
@@ -146,10 +184,6 @@ a:focus, a:hover {
 }
 
 .vertical-slider img {
-  width: 100%;
-}
-
-img {
   width: 100%;
 }
 
@@ -219,7 +253,7 @@ img {
   transition: none;
   background-color: transparent;
   color: #165690 !important;
-  padding-right: 50px;
+  padding-right: 55px;
 }
 
 .top-films__item:first-child {

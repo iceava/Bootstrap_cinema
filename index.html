@@ -65,12 +65,176 @@
   </header>
   <div class="container">
     <div class="row">
+
       <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
-        <h1>main</h1>
+        <section class="site-search panel panel-default hidden-lg hidden-md">
+          <div class="panel-heading">Поиск</div>
+          <div class="panel-body">
+            <div class="input-group"></div>
+            <form action="search">
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="search" placeholder="Поиск по сайту">
+
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="submit"><span
+                      class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="user-login panel panel-default hidden-lg hidden-md">
+          <div class="panel-heading">Пользователь</div>
+          <div class="panel-body">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#user-login__tab" aria-controls="user-login" role="tab" data-toggle="tab">Вход</a>
+              </li>
+              <li role="presentation">
+                <a href="#user-password__tab" aria-controls="user-password" role="tab" data-toggle="tab">Регистрация</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+
+              <div role="tabpanel" class="tab-pane fade in active" id="user-login__tab">
+                <form action="login">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="password" placeholder="Пароль">
+                  </div>
+                  <button class="btn btn-lg btn-default  btn-block " type="submit">Вход</button>
+                </form>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="user-password__tab">
+                <form action="login">
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="Логин">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="password" placeholder="Пароль">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="email" placeholder="Email">
+                  </div>
+                  <button class="btn btn-lg btn-default  btn-block " type="submit">Регистрация</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section class="new-films">
+          <h1 class="new-films-title">Новые фильмы</h1>
+          <div class="new-films-row row">
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1266931.jpg" alt="стражи галактики" class="new-films-item__img">
+                  <div class="new-films-item__caption caption">
+                    <h3>Стражи галактики</h3>
+                  </div>
+                </a></div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1289488.jpg" alt="занесло" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Занесло</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1341151.jpg" alt="из машины" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Из машины</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1381061.jpg" alt="выхода нет" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Выхода нет</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1393263.jpg" alt="человек муровей" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Человек муровей</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1263242.jpg" alt="люси" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Люси</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1401663.jpg" alt="марсианин" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Марсианин</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1415999.jpg" alt="дочь Бога" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Дочь Бога</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1423264.jpg" alt="месть от кутюр" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Месть от кутюр</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1441076.jpg" alt="5ять" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>5ять</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1453229.jpg" alt="люди икс" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Люди икс</h3>
+                </div>
+              </div>
+            </article>
+            <article class="new-films-item col-lg-3 col-sm-4 col-xs-6">
+              <div class="new-films-item_thumbnail thumbnail">
+                <a href="#"><img src="assets/img/films/1455536.jpg" alt="иллюзия обмана" class="new-films-item__img"></a>
+                <div class="new-films-item__caption caption">
+                  <h3>Иллюзия обмана 2</h3>
+                </div>
+              </div>
+            </article>
+            
+          </div>
+        </section>
+
       </main>
 
       <aside class="left-sidebar col-lg-3 col-lg-pull-9 col-md-4 col-md-pull-8">
-        <div class="vertical-slider panel panel-default">
+        <div class="vertical-slider panel panel-default hidden-sm hidden-xs">
 
 
           <div id="vertical-carousel" class="carousel slide" data-ride="carousel">
@@ -113,7 +277,7 @@
 
 
         </div>
-        <div class="site-search panel panel-default">
+        <section class="site-search panel panel-default hidden-sm hidden-xs">
           <div class="panel-heading">Поиск</div>
           <div class="panel-body">
             <div class="input-group"></div>
@@ -128,8 +292,8 @@
               </div>
             </form>
           </div>
-        </div>
-        <div class="user-login panel panel-default">
+        </section>
+        <section class="user-login panel panel-default hidden-sm hidden-xs">
           <div class="panel-heading">Пользователь</div>
           <div class="panel-body">
             <ul class="nav nav-tabs" role="tablist">
@@ -170,49 +334,49 @@
 
             </div>
           </div>
-        </div>
+        </section>
         <div class="site-news panel panel-default">
           <div class="panel-heading">Новости сайта</div>
           <div class="panel-body">
             <div class="site-news-item">
               <div class="site-news-item__img thumbnail">
                 <img src="assets/img/75x75.png" alt="thumbnail">
-                </div>
-                <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
-                <div class="site-news-date">05 декабря 2016</div>
-              
+              </div>
+              <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
+              <div class="site-news-date">05 декабря 2016</div>
+
             </div>
             <div class="site-news-item">
               <div class="site-news-item__img thumbnail">
                 <img src="assets/img/75x75.png" alt="thumbnail">
-                </div>
-                <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
-                <div class="site-news-date">05 декабря 2016</div>
-              
+              </div>
+              <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
+              <div class="site-news-date">05 декабря 2016</div>
+
             </div>
             <div class="site-news-item">
               <div class="site-news-item__img thumbnail">
                 <img src="assets/img/75x75.png" alt="thumbnail">
-                </div>
-                <div class="site-news-item__title"> <a href="#">Мы запустили сервис</a></div>
-                <div class="site-news-date">05 декабря 2016</div>
-              
+              </div>
+              <div class="site-news-item__title"> <a href="#">Мы запустили сервис</a></div>
+              <div class="site-news-date">05 декабря 2016</div>
+
             </div>
             <div class="site-news-item">
               <div class="site-news-item__img thumbnail">
                 <img src="assets/img/75x75.png" alt="thumbnail">
-                </div>
-                <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
-                <div class="site-news-date">05 декабря 2016</div>
-              
+              </div>
+              <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
+              <div class="site-news-date">05 декабря 2016</div>
+
             </div>
             <div class="site-news-item">
               <div class="site-news-item__img thumbnail">
                 <img src="assets/img/75x75.png" alt="thumbnail">
-                </div>
-                <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
-                <div class="site-news-date">05 декабря 2016</div>
-              
+              </div>
+              <div class="site-news-item__title"> <a href="#">Мы запустили новый сервис</a></div>
+              <div class="site-news-date">05 декабря 2016</div>
+
             </div>
           </div>
         </div>
@@ -220,17 +384,28 @@
           <div class="panel-heading">Рейтинг фильмов</div>
           <div class="panel-body top-films__body">
             <div class="top-films__list list-group">
-              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item">Dapibus ac facilisis in<span class="top-films__badge badge">8</span></a>
-              <a href="#" class="top-films__item list-group-item">Morbi leovcxvcxvcxvcxпавпав risus<span class="top-films__badge badge">11</span></a>
-              <a href="#" class="top-films__item list-group-item">Porta ac consectetur ac<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item">Vestibulum at eros<span class="top-films__badge badge">7.8</span></a>
-              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item">Morbi leo risus<span class="top-films__badge badge">11</span></a>
-              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span class="top-films__badge badge">8.8</span></a>
-              <a href="#" class="top-films__item list-group-item">Morbi leo risus<span class="top-films__badge badge">11</span></a>
+              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item">Dapibus ac facilisis in<span
+                  class="top-films__badge badge">8</span></a>
+              <a href="#" class="top-films__item list-group-item">Morbi leovcxvcxvcxvcxпавпав risus<span
+                  class="top-films__badge badge">11</span></a>
+              <a href="#" class="top-films__item list-group-item">Porta ac consectetur ac<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item">Vestibulum at eros<span
+                  class="top-films__badge badge">7.8</span></a>
+              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item">Morbi leo risus<span
+                  class="top-films__badge badge">11</span></a>
+              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item"> Cras justo odio<span
+                  class="top-films__badge badge">8.8</span></a>
+              <a href="#" class="top-films__item list-group-item">Morbi leo risus<span
+                  class="top-films__badge badge">11</span></a>
             </div>
           </div>
         </div>

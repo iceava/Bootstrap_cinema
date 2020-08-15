@@ -1,0 +1,33 @@
+.footer-container{
+    background-color: $color-dark;
+   
+}
+ 
+h4{
+    color: $color-light;
+    text-align: left;
+}
+
+.footer-box{
+    margin-top: 38px;
+    &__description{
+        color: $color-light;
+        padding-bottom: 11px;
+        text-align: left;
+        margin-right: 88px;
+        
+
+       
+    }
+}
+.container-box{
+    text-align: center;
+    padding-bottom: 18px;
+}
+.copy-right{
+    color:$color-light;
+    &:hover{
+        color: $color-light;
+    }
+    
+}

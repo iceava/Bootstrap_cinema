@@ -151,7 +151,7 @@ a:focus, a:hover {
   height: 3px;
   margin: 0.85em 0 0 15px;
   width: 100%;
-  bottom: 0;
+  bottom: 8.5px;
 }
 
 .new-films-item {
@@ -187,7 +187,7 @@ a:focus, a:hover {
 }
 
 .top-films-title {
-  margin: 60px 0px 48px 0px;
+  margin: 60px 0px 45px -5px;
   padding-left: 48px;
   font-size: 2.5rem;
   overflow: hidden;
@@ -216,8 +216,8 @@ a:focus, a:hover {
   left: -58px;
 }
 
-.news-films-title {
-  margin: 60px 0px 48px 0px;
+.news-title {
+  margin: 60px 0px 23px 0px;
   padding-left: 48px;
   font-size: 2.5rem;
   overflow: hidden;
@@ -226,7 +226,7 @@ a:focus, a:hover {
   position: relative;
 }
 
-.news-films-title::after {
+.news-title::after {
   content: "";
   position: absolute;
   background-color: rgba(223, 138, 19, 0.7);
@@ -236,7 +236,7 @@ a:focus, a:hover {
   bottom: -3;
 }
 
-.news-films-title::before {
+.news-title::before {
   content: "";
   position: absolute;
   background-color: rgba(223, 138, 19, 0.7);
@@ -244,6 +244,54 @@ a:focus, a:hover {
   width: 88px;
   top: 11px;
   left: -58px;
+}
+
+.films-news:hover .thumbnail {
+  background-color: #df8a13;
+}
+
+.films-news:hover .films-news__button {
+  background-color: #df8a13;
+}
+
+.films-news:hover .films-news__link {
+  color: #df8a13;
+}
+
+.films-news__caption {
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 1.5rem;
+}
+
+.films-news-box {
+  margin-left: 11px;
+  margin-right: 1px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.films-news-box:nth-last-of-type(3) {
+  margin-bottom: 0;
+}
+
+.films-news-box__img {
+  max-width: 100%;
+}
+
+.films-news-box__description {
+  text-align: justify;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.films-news__button {
+  float: right;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
 }
 
 .left-sidebar .panel:last-of-type {
@@ -359,6 +407,43 @@ a:focus, a:hover {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.footer-container {
+  background-color: #232323;
+}
+
+h4 {
+  color: #ffffff;
+  text-align: left;
+}
+
+.footer-box {
+  margin-top: 38px;
+}
+
+.footer-box__description {
+  color: #ffffff;
+  padding-bottom: 11px;
+  text-align: left;
+  margin-right: 88px;
+}
+
+.container-box {
+  text-align: center;
+  padding-bottom: 18px;
+}
+
+.copy-right {
+  color: #ffffff;
+}
+
+.copy-right:hover {
+  color: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @media (min-width: 576px) {

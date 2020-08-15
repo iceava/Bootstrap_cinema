@@ -128,6 +128,11 @@ a:focus, a:hover {
   color: #fff;
 }
 
+.main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .main .user-login {
   margin-bottom: 60px;
 }
@@ -474,6 +479,9 @@ body {
   }
   .navbar-right {
     margin-top: 0;
+  }
+  .films-news-box__item {
+    padding-left: 0;
   }
   .films-news-box__description {
     margin-left: 0;

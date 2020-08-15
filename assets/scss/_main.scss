@@ -1,192 +1,242 @@
-.main{
+.main
+{
     @extend %margin-bottom-lg;
-    .user-login{
+    .user-login
+    {
         margin-bottom: $gap * 4;
     }
 
-    .site-search{
+    .site-search
+    {
         margin-bottom: $gap * 3;
     }
 }
 
-.new-films{
-    &-title{
-        margin: -7.5px 0 45px;
-        font-size: 3rem;
-        overflow: hidden;
-        
+.new-films
+{
+    &-title
+    {
         font-family: $font-header;
+        font-size: 3rem;
+
         position: relative;
-        &::after{
-            content: "";
+
+        overflow: hidden;
+
+        margin: -7.5px 0 45px;
+        &::after
+        {
             position: absolute;
-            background-color:rgba($color-accent, 0.7);
-            height: 3px;
-            margin: 0.85em 0 0 15px;
+            bottom: 8.5px;
+
             width: 100%;
-            bottom:8.5px;
-            
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
         }
     }
-    &-item{
-        padding-left: $gap / 2 ;
-        padding-right: $gap / 2;
+    &-item
+    {
         margin-bottom: $gap;
-        cursor: pointer;
-       
+        padding-right: $gap / 2;
+        padding-left: $gap / 2 ;
 
-        &_thumbnail{
-            margin-bottom:0px;
-            &:hover{
+        cursor: pointer;
+
+
+        &_thumbnail
+        {
+            margin-bottom: 0;
+            &:hover
+            {
                 background-color: $color-accent ;
-                h3{
+                h3
+                {
                     color: $color-light;
                 }
             }
-
         }
-        
 
-        &__caption{
-           
-            h3{
-            font-size: 1rem;
-            margin: 0px;
-            text-align: center;
-            font-family: $font-main;
-            font-weight: 700;
 
+        &__caption
+        {
+            h3
+            {
+                font-family: $font-main;
+                font-size: 1rem;
+                font-weight: 700;
+
+                margin: 0;
+
+                text-align: center;
             }
         }
     }
 
-    &-row{
-        padding-left:$gap/2 ;
+    &-row
+    {
         padding-right: $gap/2;
-
+        padding-left: $gap/2 ;
     }
-
-  
 }
 
 
-.top-films{
-    &-title{
-        margin:60px 0px 45px -5px;
-        padding-left: 48px;
-        font-size: 2.5rem;
-        overflow: hidden;
-        position: relative;
-        
+.top-films
+{
+    &-title
+    {
         font-family: $font-header;
-        position: relative;
-        &::after{
-            content: "";
-            position: absolute;
-            background-color:rgba($color-accent, 0.7);
-            height: 3px;
-            margin: 0.85em 0 0 15px;
-            width: 100%;
-            bottom:-3;
-
-        }
-        &::before{
-            content: "";
-        position: absolute;
-        background-color:rgba($color-accent, 0.7);
-        height: 3px;
-        width: 88px;
-        top:11px;
-        left: -58px;
-        }
-    }
-
-}
-
-.news{
-    &-title{
-        margin:60px 0px 23px 0px;
-        padding-left: 48px;
         font-size: 2.5rem;
-        overflow: hidden;
-        position: relative;
-        
-        font-family: $font-header;
-        position: relative;
-        &::after{
-            content: "";
-            position: absolute;
-            background-color:rgba($color-accent, 0.7);
-            height: 3px;
-            margin: 0.85em 0 0 15px;
-            width: 100%;
-            bottom:-3;
 
+        position: relative;
+        position: relative;
+
+        overflow: hidden;
+
+        margin: 60px 0 45px -5px;
+        padding-left: 48px;
+        &::after
+        {
+            position: absolute;
+            bottom: -3;
+
+            width: 100%;
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
         }
-        &::before{
-            content: "";
-        position: absolute;
-        background-color:rgba($color-accent, 0.7);
-        height: 3px;
-        width:88px;
-        top:11px;
-        left:-58px;
+        &::before
+        {
+            position: absolute;
+            top: 11px;
+            left: -58px;
+
+            width: 88px;
+            height: 3px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
         }
     }
+}
 
+.news
+{
+    &-title
+    {
+        font-family: $font-header;
+        font-size: 2.5rem;
+
+        position: relative;
+        position: relative;
+
+        overflow: hidden;
+
+        margin: 60px 0 23px 0;
+        padding-left: 48px;
+        &::after
+        {
+            position: absolute;
+            bottom: -3;
+
+            width: 100%;
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
+        }
+        &::before
+        {
+            position: absolute;
+            top: 11px;
+            left: -58px;
+
+            width: 88px;
+            height: 3px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
+        }
+    }
 }
 
 
-.films-news{
-&:hover{
-.thumbnail{
-        background-color: $color-accent;
-        }
-    
-        .films-news__button{
+.films-news
+{
+    &:hover
+    {
+        .thumbnail
+        {
             background-color: $color-accent;
         }
-        .films-news__link{
-                color: $color-accent;
-            }
+
+        .films-news__button
+        {
+            background-color: $color-accent;
         }
-        
-       
-    &__caption{
-        margin-left:10px;
-        margin-top: 25px;
-        font-size: 1.5rem;
-       
+        .films-news__link
+        {
+            color: $color-accent;
+        }
     }
 
-    &-box{
-        margin-left: 11px;
+
+    &__caption
+    {
+        font-size: 1.5rem;
+
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    &-box
+    {
         margin-right: 1px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
+        margin-left: 11px;
+
         cursor: pointer;
-        &:nth-last-of-type(3){
+        &:nth-last-of-type(3)
+        {
             margin-bottom: 0;
         }
-           
-            &__img{
-                max-width: 100%;
-            }
-            &__description{
-                text-align: justify;
-                margin-left: $gap;
-                margin-bottom: 10px;
-            }
-           
-        }
-        
-        
-        &__button{
-        float: right;
-        margin-bottom:$gap*2;
-        }
 
+        &__img
+        {
+            max-width: 100%;
+        }
+        &__description
+        {
+            margin-bottom: 10px;
+            margin-left: $gap;
+            @include sm {
+                margin-left: 0;
+            }
+
+            text-align: justify;
+        }
     }
 
-img{
+
+    &__button
+    {
+        float: right;
+
+        margin-bottom: $gap*2;
+    }
+}
+
+img
+{
     width: 100%;
 }

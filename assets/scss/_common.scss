@@ -1,18 +1,25 @@
-html { 
+html
+{
     font-size: $font-size;
+
     overflow-y: scroll;
 }
-body {
-    font-size: 1rem;
+body
+{
     font-family: $font-main;
+    font-size: 1rem;
 }
 
-a{
+a
+{
+    transition: color .5s;
+
     color: $color-primary;
-    transition: color 0.5s;
     &:focus,
-    &:hover { 
-text-decoration: none;
-color: $color-accent;
+    &:hover
+    {
+        text-decoration: none;
+
+        color: $color-accent;
     }
 }

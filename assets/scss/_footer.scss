@@ -1,33 +1,39 @@
-.footer-container{
+.footer-container
+{
     background-color: $color-dark;
-   
 }
- 
-h4{
-    color: $color-light;
+
+h4
+{
     text-align: left;
+
+    color: $color-light;
 }
 
-.footer-box{
+.footer-box
+{
     margin-top: 38px;
-    &__description{
-        color: $color-light;
-        padding-bottom: 11px;
-        text-align: left;
+    &__description
+    {
         margin-right: 88px;
-        
+        padding-bottom: 11px;
 
-       
-    }
-}
-.container-box{
-    text-align: center;
-    padding-bottom: 18px;
-}
-.copy-right{
-    color:$color-light;
-    &:hover{
+        text-align: left;
+
         color: $color-light;
     }
-    
+}
+.container-box
+{
+    padding-bottom: 18px;
+
+    text-align: center;
+}
+.copy-right
+{
+    color: $color-light;
+    &:hover
+    {
+        color: $color-light;
+    }
 }

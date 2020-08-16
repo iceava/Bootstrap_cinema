@@ -95,7 +95,7 @@
         font-size: 2.5rem;
 
         position: relative;
-        position: relative;
+        
 
         overflow: hidden;
 
@@ -258,4 +258,172 @@
 img
 {
     width: 100%;
+}
+
+.description-film{
+    text-align: center;
+    border-radius: 0;
+    margin-top: -3px;
+    max-width: 1011px;
+    border-radius: 5px;
+    &__wrapper{
+    font-size: 1.2em;
+    white-space: nowrap;
+    
+    }
+    &__badge{
+        font-size: 0.8em;
+        margin-right: 15px;
+    }
+}
+.description-title{
+    font-family: $font-header;
+    font-size: 3rem;
+    margin-bottom: $gap*3;
+    margin-top:-8px;
+    position: relative;
+
+    overflow: hidden;
+    &::after
+    {
+        position: absolute;
+        bottom: 8.5px;
+
+        width: 100%;
+        height: 3px;
+        margin: .85em 0 0 15px;
+
+        content: '';
+
+        background-color: rgba($color-accent, .7);
+    }
+}
+
+.about-film{
+    &__title{
+        font-family: $font-header;
+        font-size: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        margin: 75px 0 45px 0px;
+        padding-left: 38px;
+        &::after{
+            position: absolute;
+            bottom: -3;
+
+            width: 100%;
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
+        }
+        &::before{
+            position: absolute;
+            top: 11px;
+            left: -62px;
+            width: 88px;
+            height: 3px;
+            content: '';
+            background-color: rgba($color-accent, .7);
+        }
+
+    }
+    &__description{
+        margin-top: 5px;
+    }
+}
+
+.feedback-film{
+        margin-bottom:$gap+5px;
+    
+    &__title{
+        font-family: $font-header;
+        font-size: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        margin: 75px 0 45px 0px;
+        padding-left: 38px;
+        &::after{
+            position: absolute;
+            bottom: -3;
+
+            width: 100%;
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
+        }
+        &::before{
+            position: absolute;
+            top: 11px;
+            left: -62px;
+            width: 88px;
+            height: 3px;
+            content: '';
+            background-color: rgba($color-accent, .7);
+        }
+
+    }
+   
+    
+    &-item{
+        &__body{
+            margin-top: 5px;
+            border-radius:5px ;
+           
+            background-color: $color-gray;
+    }
+    &__heading{
+        background-color:$color-accent;
+        color: $color-light;
+        font-size: 1.2em;
+        border-radius:5px 5px 0 0;
+        margin-bottom:$gap;
+    }
+    &__description{
+        padding-top:0px;
+    }
+}
+}
+
+.film-feedback{
+    &__title{
+        font-family: $font-header;
+        font-size: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        margin: 75px 0 45px 0px;
+        padding-left: 38px;
+        &::after{
+            position: absolute;
+            bottom: -3;
+
+            width: 100%;
+            height: 3px;
+            margin: .85em 0 0 15px;
+
+            content: '';
+
+            background-color: rgba($color-accent, .7);
+        }
+        &::before{
+            position: absolute;
+            top: 11px;
+            left: -62px;
+            width: 88px;
+            height: 3px;
+            content: '';
+            background-color: rgba($color-accent, .7);
+        }
+
+    }
+
+    &__btn{
+        float: right;
+    }
+   
 }

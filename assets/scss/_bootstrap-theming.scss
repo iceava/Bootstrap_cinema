@@ -124,3 +124,16 @@
 {
     transition: background-color .25s;
 }
+
+.embed-responsive{
+    border: 1px solid $color-gray;
+    //border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.well{
+    border: 1px solid $color-gray;
+    border-radius: 5px;
+    background-color: darken($color-light, 5.5%);
+    padding: 20px;
+}

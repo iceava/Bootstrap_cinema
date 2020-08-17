@@ -14,7 +14,36 @@
 @import 'sidebar';
 @import 'footer';
 
-body
-{
-    overflow-x: hidden;
-}
+
+ #link7,
+ #link6,
+ #link5, 
+ #link4, 
+ #link3,
+ #link2, 
+ #link1, 
+ #link{
+    background-color: $color-accent;
+    color: $color-light;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    &:last-of-type{
+    margin-left: -18px;
+    }
+    }
+    
+    .user-navtabs{
+        border-bottom: none;
+        position: absolute;
+        position: absolute;
+        top: 0;
+        right: -3px;
+        
+     
+    }
+    
+    .panel-heading{
+        position: relative;
+    }

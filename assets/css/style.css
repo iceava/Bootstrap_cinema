@@ -116,6 +116,11 @@ a:focus, a:hover {
   color: #df8a13;
 }
 
+.user-nav-tabs {
+  float: right;
+  background: none;
+}
+
 .header-logo {
   padding: 100px 0;
   text-align: center;
@@ -611,8 +616,43 @@ h4 {
   color: #fff;
 }
 
-body {
-  overflow-x: hidden;
+#link7,
+#link6,
+#link5,
+#link4,
+#link3,
+#link2,
+#link1,
+#link {
+  background-color: #df8a13;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
+#link7:last-of-type,
+#link6:last-of-type,
+#link5:last-of-type,
+#link4:last-of-type,
+#link3:last-of-type,
+#link2:last-of-type,
+#link1:last-of-type,
+#link:last-of-type {
+  margin-left: -18px;
+}
+
+.user-navtabs {
+  border-bottom: none;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  right: -3px;
+}
+
+.panel-heading {
+  position: relative;
 }
 
 @media (min-width: 576px) {
@@ -643,9 +683,6 @@ body {
   }
   .navbar-right {
     margin-top: 0;
-  }
-  h1 {
-    font-size: 1rem;
   }
   .new-films-title {
     font-size: 2rem;

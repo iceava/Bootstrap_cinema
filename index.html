@@ -85,16 +85,20 @@
         </section>
 
         <section class="user-login panel panel-default hidden-lg hidden-md">
-          <div class="panel-heading">Пользователь</div>
-          <div class="panel-body">
-            <ul class="nav nav-tabs" role="tablist">
+          <div class="panel-heading">Пользователь
+            <ul class="user-navtabs nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#user-login__tab" aria-controls="user-login" role="tab" data-toggle="tab">Вход</a>
+                <a href="#user-login__tab" id="link4" aria-controls="user-login" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-user" title="Вход"></span></a>
               </li>
               <li role="presentation">
-                <a href="#user-password__tab" aria-controls="user-password" role="tab" data-toggle="tab">Регистрация</a>
+                <a href="#user-password__tab" id="link5" aria-controls="user-password" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-plus" title="Вход"></span></a>
               </li>
             </ul>
+          </div>
+          <div class="panel-body">
+           
             <div class="tab-content">
 
               <div role="tabpanel" class="tab-pane fade in active" id="user-login__tab">
@@ -346,7 +350,7 @@
           <div class="row">
             <artile class="films-news">
               <h3 class="films-news__caption">
-                <a href="" class="films-news__link">Кейт Бекинсейл представила фильм "Другой мир: Войны крови"</a></h3>
+                <a href="#" class="films-news__link">Кейт Бекинсейл представила фильм "Другой мир: Войны крови"</a></h3>
               <div class="films-news-box row">
                 <div class="films-news-box__thumbnail thumbnail col-sm-4">
                   <img src="assets/img/news/news-1.jpg" alt="news-1" class="films-news-box__img">
@@ -466,15 +470,19 @@
           </div>
         </section>
         <section class="user-login panel panel-default hidden-sm hidden-xs">
-          <div class="panel-heading">Пользователь</div>
-          <div class="panel-body">
-            <ul class="nav nav-tabs" role="tablist">
+          <div class="panel-heading">Пользователь
+            <ul class="user-navtabs nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#user-login" aria-controls="user-login" role="tab" data-toggle="tab">Вход</a>
+                <a href="#user-login" id="link7" class="user-pass__link" aria-controls="user-login" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-user" title="Вход"></span></a>
               </li>
               <li role="presentation">
-                <a href="#user-password" aria-controls="user-password" role="tab" data-toggle="tab">Регистрация</a></li>
+                <a href="#user-password" id="link6" class=user-pass__link" aria-controls="user-password" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-plus" title="Вход"></span></a></li>
             </ul>
+          </div>
+          <div class="panel-body">
+           
             <div class="tab-content">
 
               <div role="tabpanel" class="tab-pane fade in active" id="user-login">

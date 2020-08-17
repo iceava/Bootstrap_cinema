@@ -24,8 +24,8 @@ a
     }
 }
 
-h1{
-    @include sm{
-        font-size: 1rem;
-    }
+
+.user-nav-tabs{
+float: right;
+background:none;
 }

@@ -85,16 +85,21 @@
         </section>
 
         <section class="user-login panel panel-default hidden-lg hidden-md">
-          <div class="panel-heading">Пользователь</div>
+          <div class="panel-heading">Пользователь 
+            <ul class="user-navtabs nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#user-login__tab" id="link1" class="user-navtabs__link" aria-controls="user-login" role="tab" data-toggle="tab">
+                <span class="glyphicon glyphicon-user" title="Вход"></span></a>
+            </li>
+            <li role="presentation">
+              <a href="#user-password__tab" id="link" class="user-navtabs__link" aria-controls="user-password" role="tab" data-toggle="tab">
+                <span class="glyphicon glyphicon-plus" title="Вход"></span></a>
+            </li>
+          </ul>
+        </div>
+          
           <div class="panel-body">
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active">
-                <a href="#user-login__tab" aria-controls="user-login" role="tab" data-toggle="tab">Вход</a>
-              </li>
-              <li role="presentation">
-                <a href="#user-password__tab" aria-controls="user-password" role="tab" data-toggle="tab">Регистрация</a>
-              </li>
-            </ul>
+            
             <div class="tab-content">
 
               <div role="tabpanel" class="tab-pane fade in active" id="user-login__tab">
@@ -276,15 +281,19 @@
           </div>
         </section>
         <section class="user-login panel panel-default hidden-sm hidden-xs">
-          <div class="panel-heading">Пользователь</div>
-          <div class="panel-body">
-            <ul class="nav nav-tabs" role="tablist">
+          <div class="panel-heading">Пользователь
+            <ul class="user-navtabs nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#user-login" aria-controls="user-login" role="tab" data-toggle="tab">Вход</a>
+                <a href="#user-login" id="link2" aria-controls="user-login" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-user" title="Вход"></span></a>
               </li>
               <li role="presentation">
-                <a href="#user-password" aria-controls="user-password" role="tab" data-toggle="tab">Регистрация</a></li>
+                <a href="#user-password" id="link3" aria-controls="user-password" role="tab" data-toggle="tab">
+                  <span class="glyphicon glyphicon-plus" title="Вход"></span></a></li>
             </ul>
+          </div>
+          <div class="panel-body">
+           
             <div class="tab-content">
 
               <div role="tabpanel" class="tab-pane fade in active" id="user-login">

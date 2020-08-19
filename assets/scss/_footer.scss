@@ -10,12 +10,28 @@ h4
     color: $color-light;
 }
 
-.footer-box
-{
+.footer-container{
+    &__description{
+        padding: 0;
+    }
+    &__box{
     margin-top: 38px;
+    padding-bottom: 11px;
+    text-align: center;
+    &-item{
+        list-style-type: none;
+        padding: 0;
+    }
+    &-link{
+        color: #777;
+        &:hover{
+            color: $color-light;
+        }
+    }
+    }
     &__description
     {
-        margin-right: 88px;
+        margin-right: 58px;
         padding-bottom: 11px;
 
         text-align: left;
@@ -37,3 +53,7 @@ h4
         color: $color-light;
     }
 }
+
+
+
+

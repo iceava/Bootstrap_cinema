@@ -3,11 +3,14 @@
     transition: background-color .5s;
 
     background-color: #053159;
+  
     &:hover
     {
         background-color: #366591;
     }
 }
+
+
 .navbar-inverse .navbar-nav > li > a
 {
     transition: background-color .5s;
@@ -127,7 +130,6 @@
 
 .embed-responsive{
     border: 1px solid $color-gray;
-    //border-bottom: none;
     border-radius: 5px 5px 0 0;
 }
 
@@ -138,3 +140,6 @@
     padding: 20px;
 }
 
+.container>.navbar-header{
+    margin-left: 0;
+}

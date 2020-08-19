@@ -108,7 +108,6 @@
         &::after
         {
             position: absolute;
-            bottom: -3;
             width: 100%;
             height: 3px;
             margin: .85em 0 0 15px;
@@ -156,7 +155,6 @@
         &::after
         {
             position: absolute;
-            bottom: -3;
 
             width: 100%;
             height: 3px;
@@ -333,8 +331,6 @@ img
         padding-left: 38px;
         &::after{
             position: absolute;
-            bottom: -3;
-
             width: 100%;
             height: 3px;
             margin: .85em 0 0 15px;
@@ -373,8 +369,6 @@ img
         padding-left: 38px;
         &::after{
             position: absolute;
-            bottom: -3;
-
             width: 100%;
             height: 3px;
             margin: .85em 0 0 15px;
@@ -428,8 +422,6 @@ img
         padding-left: 38px;
         &::after{
             position: absolute;
-            bottom: -3;
-
             width: 100%;
             height: 3px;
             margin: .85em 0 0 15px;
@@ -458,7 +450,9 @@ img
    
 }
 
-h3{
+.new-films-item__caption > h3{
+    @media(max-width: 360px){
+    font-size: .8rem;
     white-space: nowrap;
-
+    }
 }

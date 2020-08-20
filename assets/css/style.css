@@ -42,7 +42,6 @@
 
 .navbar-toggle {
   float: none;
-  margin-right: 0;
 }
 
 .panel {
@@ -96,6 +95,16 @@
 
 .container > .navbar-header {
   margin-left: 0;
+}
+
+.navbar-left {
+  margin-left: -5px;
+}
+
+.header-logo__title {
+  margin-right: -15px;
+  letter-spacing: 0.33em;
+  font-size: 3.5rem;
 }
 
 html {
@@ -203,6 +212,10 @@ a:focus, a:hover {
   font-family: "PT Sans", sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   margin: 0;
   text-align: center;
 }
@@ -418,9 +431,12 @@ img {
 }
 
 .feedback-film-item__body {
-  margin-top: 5px;
   border-radius: 5px;
   background-color: #dddddd;
+}
+
+.feedback-film-item__body:first-of-type {
+  margin-bottom: 28px;
 }
 
 .feedback-film-item__heading {
@@ -467,8 +483,11 @@ img {
   float: right;
 }
 
-.left-sidebar .panel:last-of-type {
-  margin-bottom: 0;
+.left-sidebar {
+  /*.panel:last-of-type
+    {
+        //margin-bottom: 0;
+    }*/
 }
 
 .vertical-slider {

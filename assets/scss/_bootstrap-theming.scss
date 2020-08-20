@@ -75,12 +75,12 @@
 {
     float: none;
 
-    margin-right: 0;
+   // margin-right: 0;
 }
 
 .panel
 {
-    margin-bottom: $gap*2;
+    margin-bottom:30px;
 
     border: none;
     background-color: darken($color-light, 8%);
@@ -142,4 +142,15 @@
 
 .container>.navbar-header{
     margin-left: 0;
+}
+.navbar-left{
+    margin-left: -5px;
+}
+
+.header-logo__title{
+  
+        margin-right: -15px;
+        letter-spacing: 0.33em;
+        font-size: 3.5rem;
+ 
 }

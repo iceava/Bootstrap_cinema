@@ -721,6 +721,9 @@ h4 {
   .navbar-right {
     margin-top: 0;
   }
+  .navbar-left {
+    margin-left: -11px;
+  }
   .new-films-title {
     font-size: 2rem;
     margin-left: 4px;
